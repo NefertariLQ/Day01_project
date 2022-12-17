@@ -18,6 +18,7 @@ public class ServletDemo4 extends HttpServlet {
         System.out.println(username + password);
 
 
+
         //map集合
         Map<String, String[]> parameterMap = request.getParameterMap();
 
